@@ -5,7 +5,7 @@ class Mall {
     public static $totalShops = 0; //Static Property
 
     public static function addShop() { //Static Method
-        self::$totalShops++;           //Accessing static property
+        self::$totalShops++;           //static property
     }
 
     public static function getTotalShops() { //Static Method

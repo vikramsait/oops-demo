@@ -21,6 +21,7 @@ echo $foodShop->getInfo() . "<br><br>";
 Mall::addShop();
 Mall::addShop();
 Mall::addShop();
+
 echo "Total Shops: " . Mall::getTotalShops() . "<br><br>";
 
 //Simulated Method Overloading
